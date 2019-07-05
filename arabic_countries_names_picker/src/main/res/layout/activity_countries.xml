@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="vertical"
+  android:layout_marginTop="5dp"
+  android:layout_marginBottom="5dp"
+  android:layout_marginStart="10dp"
+  android:layout_marginEnd="10dp"
+  tools:context=".CountriesActivity"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    <EditText
+      android:id="@+id/et_search_Text"
+      android:inputType="text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:maxLines="1"
+      android:textColor="#000"
+      android:textStyle="bold"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:hint="@string/country_name"
+      tools:ignore="Autofill"
+      android:imeOptions="actionDone"/>
+  <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/rv_countries"/>
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">Arabic Countries Names Picker</string>
+  <string name="country_name">إسم البلد</string>
+  <string name="search">إبحث</string>
+</resources>

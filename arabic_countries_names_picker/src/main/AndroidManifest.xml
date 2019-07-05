@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.mnashat.arabic_countries_names_picker">
+
+  <application>
+    <activity android:name="com.mnashat.arabic_countries_names_picker.CountriesActivity"
+      android:theme="@style/FullScreen">
+    </activity>
+  </application>
+
+</manifest>
